@@ -1,0 +1,238 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#navbar{
+   
+    top: 0;
+    left: 0;
+    padding: auto;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+   
+    
+}
+
+#navbarSupportedContent a{
+    color: #1a0202;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 5px solid #17f217;
+}
+
+
+
+#dd{
+    color: rgb(13, 13, 13);
+    margin-left: 40px;
+    margin-top: 40px;
+  
+}
+
+#home {
+    background-image: url(img/hero4.png);
+    background-repeat: no-repeat;
+     background-size: cover;
+    height: 100vh;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.h6{
+    padding-left: 15px;
+}
+ 
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 150px;
+    text-align: center;
+    padding: 25px 3px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.2);
+    border-radius: 4px;
+   
+}
+#feature .fe-box:hover{
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.5);
+}
+
+#product h1,.p{
+    text-align: center;
+}
+
+.card{
+  
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.2);
+    border-radius: 7px;
+   
+}
+
+.card:hover{
+    
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.5);
+}
+
+.star{
+    color: gold;
+}
+
+.star h4{
+    color: black;
+}
+
+#banner{
+    margin: 40px 0;
+    display: flex-coloum;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/banner/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+#banner span{
+    color: red;
+}
+
+#banner .btn{
+   color: wheat;
+    
+}
+
+
+
+#smb .banner-box{
+    background-image: url(img/banner/b17.jpg) ;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+}
+
+#smb .banner-box .btn:hover {
+
+    background-color: green;
+    
+}
+
+#smb .banner-box2 .btn:hover {
+
+    background-color: green;
+    
+}
+
+#smb .banner-box2{
+    background-image: url(img/banner/b10.jpg) ;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    
+    color: white;
+}
+#smb  .banner-box3{
+    background-image: url(img/banner/b7.jpg);
+    height: 30vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    color: red;
+    
+
+}
+
+#smb  .banner-box4{
+    background-image: url(img/banner/b4.jpg);
+    height: 30vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    color: red;
+    
+
+}
+
+#smb  .banner-box5{
+    background-image: url(img/banner/b18.jpg);
+    height: 30vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    color: red;
+    
+
+}
+
+#home #dd{
+    margin-top: 40px;
+}
+
+
+/*shop*/
+
+#page-header{
+    background-image: url(img/banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
+}
+
+#page-header #ss{
+    text-align: center;
+    color: white;
+}
+
+#produvt-ali .singleimg{
+    width: 40%;
+    margin-right: 50px;
+}
+.all{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.smallimg{
+    display: flex;
+    justify-content: space-between;
+}
+.smimgcol{
+   flex-basis: 24%;
+    cursor: pointer;
+}
+#produvt-ali {
+    display: flex;
+    margin-top: 50px;
+}
+#produvt-ali .singledetails{
+    width: 50%;
+    padding: 30px;
+}
